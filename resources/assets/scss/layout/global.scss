@@ -1,0 +1,51 @@
+
+a {
+
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+}
+
+strong {
+
+    font-weight: 700;
+}
+
+em {
+
+    font-style: italic;
+}
+
+small {
+
+    font-size: 75%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    display: block;
+    font-weight: 800;
+    letter-spacing: .5px;
+    line-height: 1.375;
+    
+    color: #343434;
+}
+
+h1 {
+
+    font-size: 2rem;
+}
+
+h2 {
+
+    font-size: 1.425rem;
+}
+
+h3 {
+
+    font-size: 1.25rem;
+}

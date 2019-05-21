@@ -1,0 +1,35 @@
+
+$_containerWidthFull: ($containerPadding * 2) + $containerWidth;
+
+.container {
+
+    max-width: $_containerWidthFull;
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding-left: $containerPadding;
+    padding-right: $containerPadding;
+
+    box-sizing: border-box;
+
+    @media screen and (max-width: 1440px) {
+
+        max-width: 1220px;
+    }
+
+    @media screen and (max-width: 1260px) {
+
+        max-width: 1124px;
+    }
+
+    @media screen and (max-width: 1124px) {
+
+        max-width: 90%;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        max-width: 95%;
+    }
+}

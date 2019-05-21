@@ -1,0 +1,10 @@
+
+# JetBrains Files
+.idea/
+
+# NPM files
+node_modules/
+
+# Libraries
+vendor/
+!resources/assets/scss/vendor
